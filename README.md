@@ -48,51 +48,6 @@ stock-market-analysis/
 
 ---
 
-## 📊 Sample Charts
-
-### Price & Moving Averages
-<img src="outputs/AAPL_price_ma.png" width="700"/>
-
-### RSI & MACD
-<img src="outputs/AAPL_rsi_macd.png" width="700"/>
-
-### Return Distribution
-<img src="outputs/AAPL_returns_distribution.png" width="700"/>
-
-### Correlation Heatmap
-<img src="outputs/correlation_heatmap.png" width="400"/>
-
----
-
-## 🔧 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/vishvaa369/stock-market-analysis.git
-cd stock-market-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the analysis
-python stock_analysis.py
-```
-
----
-
-## 📦 Dependencies
-
-```
-pandas>=2.0
-numpy>=1.24
-matplotlib>=3.7
-seaborn>=0.12
-```
-
-> **Live data**: To use real market data, install `yfinance` and replace `generate_stock_data()` with a `yfinance.download()` call. The rest of the pipeline is fully compatible.
-
----
-
 ## 📐 Technical Indicators Explained
 
 ### Moving Averages
@@ -138,9 +93,6 @@ On-Balance Volume — confirms trend direction using volume flow.
 
 ---
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
